@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.68.51.99:3300/IAM
+    username: root
+    password: root
+    
+spring.redis.host: 10.68.51.99
+server:
+   port: 5555
